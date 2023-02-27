@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "https://movies-backend-production.up.railway.app")
 
 //link untuk return data di API nya
 @RequestMapping("/api/v1/movies")
